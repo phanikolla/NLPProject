@@ -13,7 +13,7 @@ app = FastAPI(
 
 # load the sentiment model
 #
-openai.api_key = "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"
+openai.api_key = "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"
 def generate_sql_query(prompt, max_tokens=1024, temperature=0, top_p=1.0, frequency_penalty=0.0, presence_penalty=0.0):
   response = openai.Completion.create(
     model="curie:ft-personal:customercomplaint-26-02-2023-2023-02-26-07-27-52",

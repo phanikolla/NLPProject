@@ -13,7 +13,7 @@ app = FastAPI(
 
 # load the sentiment model
 #
-openai.api_key = "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"
+openai.api_key = "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"
 def generate_sql_query(prompt, max_tokens=1024, temperature=0, top_p=1.0, frequency_penalty=0.0, presence_penalty=0.0):
     response = openai.Completion.create(
         #engine="davinci-codex",

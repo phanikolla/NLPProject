@@ -15,7 +15,7 @@ app = FastAPI(
 #
 openai.api_key = "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"
 def generate_sql_query(prompt, max_tokens=1024, temperature=0, top_p=1.0, frequency_penalty=0.0, presence_penalty=0.0):
-   response = openai.Completion.create(
+    response = openai.Completion.create(
         #engine="davinci-codex",
         engine="text-davinci-002",
         #engine="davinci-instruct-beta-v3",
